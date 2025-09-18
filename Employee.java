@@ -32,6 +32,11 @@ public class Employee{
     public boolean canDrive(){
         int age = calculateAge(2025);
         // to be completed
+        if age>=16 then
+        return (true)
+        else 
+        return (false)
+        
     }
 
     /*
@@ -39,6 +44,8 @@ public class Employee{
      */
     private double calculatePay(){
         // to be completed
+        unpaidhours * hourlywage = newpay
+        return (newpay-taxes)
     }
 
     /*
@@ -46,5 +53,7 @@ public class Employee{
      */
     public void paySalary(){
         // to be completed
+        system.out.println(fullname+ "has received a wide transfer of" + calculatepay)
+        unpaidhours = 0
     }
 }
