@@ -32,11 +32,11 @@ public class Employee{
     public boolean canDrive(){
         int age = calculateAge(2025);
         // to be completed
-        if age >= 16
+        if (age >= 16)
         return (true);
         else 
+        System.out.println(16-age);
         return (false);
-        
     }
 
     /*
@@ -44,8 +44,11 @@ public class Employee{
      */
     private double calculatePay(){
         // to be completed
-        unpaidhours * hourlywage = newpay;
-        return (newpay-taxes);
+        double totalSalary = (unpaidHours * hourlyWage);
+        double taxes = (00.30);
+        double Sum = (totalSalary * taxes);
+        double calculatePay = (totalSalary - Sum);
+        return (calculatePay);
     }
 
     /*
@@ -53,7 +56,7 @@ public class Employee{
      */
     public void paySalary(){
         // to be completed
-        system.out.println(fullname+ "has received a wide transfer of" + calculatepay);
-        unpaidhours = 0;
+        System.out.println(fullname+ "has received a wide transfer of" + calculatePay() );
+        unpaidHours = 0;
     }
 }
